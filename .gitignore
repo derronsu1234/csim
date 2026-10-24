@@ -1,0 +1,45 @@
+# ---- 构建目录 ----
+/bin/
+/build/
+/build_static/
+/build_msvc/
+/build_msvc_static/
+
+# ---- 编译中间产物 ----
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.d
+*.gcda
+*.gcno
+*.gcov
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# ---- Visual Studio / VS Code ----
+.vs/
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.suo
+*.user
+*.opendb
+.vscode/*.log
+
+# ---- 系统/编辑器垃圾 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 说明：core/parser/ 下由 bison/flex 生成的 parse-*.cc/h、lex-*.cc
+# 已由 core/parser/.gitignore 忽略，构建时自动生成。

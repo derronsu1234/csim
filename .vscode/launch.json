@@ -1,0 +1,56 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MinGW Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/circuit.exe", // 修改为您的可执行文件路径
+            "args": [
+                "${workspaceFolder}/test/case6_tran_pulse.sp"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:/msys64/mingw64/bin;${env:PATH}" // 确保包含MinGW的bin目录
+                }
+            ],
+            "externalConsole": true, // 使用外部控制台，方便输入输出
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/msys64/mingw64/bin/gdb.exe", // 修改为您的gdb路径
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build: static", // 在调试前自动构建
+            "logging": {
+                "moduleLoad": false,
+                "engineLogging": false
+            }
+        },
+        {
+            "name": "MSVC Debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug/circuit.exe",
+            "args": [
+                "${workspaceFolder}/test/case6_tran_pulse.sp"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:/msys64/usr/bin;${env:PATH}" // bison/flex 目录（调试需要时）
+                }
+            ],
+            "preLaunchTask": "build: msvc" // 在调试前自动构建 MSVC 版本
+        }
+    ]
+}

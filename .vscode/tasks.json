@@ -1,0 +1,143 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "${workspaceFolder}/build.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "build: static",
+            "type": "shell",
+            "command": "${workspaceFolder}/build_static.bat",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "build: msvc",
+            "type": "shell",
+            "command": "${workspaceFolder}/build_msvc.bat",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "build: msvc: static",
+            "type": "shell",
+            "command": "${workspaceFolder}/build_msvc_static.bat",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "if exist \"${workspaceFolder}\\build\" rmdir /s /q \"${workspaceFolder}\\build\""
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "clean: msvc",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "if exist \"${workspaceFolder}\\build_msvc\" rmdir /s /q \"${workspaceFolder}\\build_msvc\""
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "clean: msvc: static",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "if exist \"${workspaceFolder}\\build_msvc_static\" rmdir /s /q \"${workspaceFolder}\\build_msvc_static\""
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "run: case1_op",
+            "type": "shell",
+            "command": "${workspaceFolder}/bin/circuit.exe",
+            "args": [
+                "${workspaceFolder}/test/case1_op.sp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "run: case6_tran_pulse",
+            "type": "shell",
+            "command": "${workspaceFolder}/bin/circuit.exe",
+            "args": [
+                "${workspaceFolder}/test/case6_tran_pulse.sp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "run: msvc case1_op",
+            "type": "shell",
+            "command": "${workspaceFolder}/bin/Debug/circuit.exe",
+            "args": [
+                "${workspaceFolder}/test/case1_op.sp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "build: msvc",
+            "problemMatcher": []
+        },
+        {
+            "label": "run: msvc: static case1_op",
+            "type": "shell",
+            "command": "${workspaceFolder}/bin/Debug/circuit.exe",
+            "args": [
+                "${workspaceFolder}/test/case1_op.sp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "build: msvc: static",
+            "problemMatcher": []
+        }
+    ]
+}
