@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef TSTLINEARSOLVER_H_
 #define TSTLINEARSOLVER_H_
 

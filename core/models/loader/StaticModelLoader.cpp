@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #include "StaticModelLoader.h"
 #include "csim/utils/string.h"
 #include "csim/utils/errors.h"

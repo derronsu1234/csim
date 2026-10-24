@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef INTEGRALSOLVER_GEAR_H_
 #define INTEGRALSOLVER_GEAR_H_
 

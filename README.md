@@ -282,4 +282,22 @@ bin\tstall.exe
 
 ## License
 
-（本项目未声明许可证，请与作者确认使用条款。）
+本项目以 **GNU Lesser General Public License 2.1 或更高版本（LGPL-2.1-or-later）** 发布。
+许可证全文见 [LICENSE](LICENSE)（LGPL-2.1），其上位条款见 [COPYING](COPYING)（GPL-2.0）。
+
+本项目是 **FastCSIM**（Copyright (C) 2021 cassuto）的衍生作品：`core/` 与 `include/csim/`
+下的源文件保留了原始版权与 LGPL 许可声明，并继续以 LGPL-2.1-or-later 授权；修改与再分发时
+请保留这些声明。
+
+第三方组件按各自许可分发，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)：
+
+| 组件 | 位置 | 许可 |
+|------|------|------|
+| FastCSIM（上游） | `core/`、`include/csim/` | LGPL-2.1-or-later |
+| BSIM3v3.2（UC Berkeley） | `core/models/bsim3v32/` | UC Berkeley BSIM Terms（见 `B3TERMS_OF_USE`） |
+| Boost.Regex | `include/boost/` | Boost Software License 1.0 |
+| GoogleTest | `testcases/googletest/` | BSD 3-Clause |
+| bison / flex / m4 / sed | `third_party/msys/` | GPL（仅构建期工具） |
+
+简而言之：你可以自由使用、修改、再分发本项目（含商业使用），但**对本库的修改**须以 LGPL
+公开源码并保留原作者版权声明；若只是链接使用（动态或静态），你的应用代码不必开源。

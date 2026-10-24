@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef MODEL_IAC_H_
 #define MODEL_IAC_H_
 

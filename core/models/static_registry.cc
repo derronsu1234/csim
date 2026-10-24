@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 /**
  * @file static_registry.cc
  * @brief 静态模型注册表：把库名常量映射到静态编译的模型入口。

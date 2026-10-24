@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef TSTINTEGRALCORRECTORDATA_H_
 #define TSTINTEGRALCORRECTORDATA_H_
 

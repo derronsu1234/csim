@@ -1,4 +1,5 @@
-﻿#ifndef PUBLIC_H  
+﻿// SPDX-License-Identifier: LGPL-2.1-or-later
+#ifndef PUBLIC_H  
 #define PUBLIC_H  
 #include <string>  
 #include <vector> 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef CSIM_CONSTANTS_H_
 #define CSIM_CONSTANTS_H_
 

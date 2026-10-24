@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef INDUCTOR_H_
 #define INDUCTOR_H_
 

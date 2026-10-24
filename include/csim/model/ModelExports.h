@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 /**
  * @file ModelExports.h
  * @brief 组件模型导出宏：支持动态加载(DLL)与静态链接两种模式

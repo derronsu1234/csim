@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef MODEL_CCCS_H_
 #define MODEL_CCCS_H_
 

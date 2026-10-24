@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 /*
  * Some SPICE sources come from ngspice-34 examples
  */

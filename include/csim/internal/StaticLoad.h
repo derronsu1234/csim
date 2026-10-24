@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 /**
  * @file StaticLoad.h
  * @brief 静态模型加载入口（仅在 CSIM_USE_STATIC_MODELS 静态模式下使用）

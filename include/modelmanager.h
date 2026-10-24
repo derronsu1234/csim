@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef MODELMANAGER_H
 #define MODELMANAGER_H
 #include "csim/internal/ModelLoader.h"

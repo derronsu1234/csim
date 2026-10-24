@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef CONSTANTS_H_
 #define CONSTANTS_H_
 

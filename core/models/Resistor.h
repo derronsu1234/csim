@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef RESISTOR_H_
 #define RESISTOR_H_
 

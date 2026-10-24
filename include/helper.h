@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef HELPER_H
 #define HELPER_H
 #include <vector>

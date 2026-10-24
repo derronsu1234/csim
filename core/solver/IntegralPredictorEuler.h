@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef PREDICTOR_FORWARD_EULER_H_
 #define PREDICTOR_FORWARD_EULER_H_
 

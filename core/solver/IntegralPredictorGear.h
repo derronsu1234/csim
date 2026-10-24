@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef PREDICTOR_GEAR_H_
 #define PREDICTOR_GEAR_H_
 

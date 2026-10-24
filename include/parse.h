@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef PARSER_H  
 #define PARSER_H  
 #include <map>  

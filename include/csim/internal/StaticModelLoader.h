@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 // StaticModelLoader.h - 专门的静态模型加载器
 #ifndef CSIM_STATIC_MODELLOADER_H_
 #define CSIM_STATIC_MODELLOADER_H_

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 /**
  * @file unistd.h
  * @brief MSVC 兼容 shim：flex 生成的词法分析器需要 <unistd.h>。

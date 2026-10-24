@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef CAPACITOR_H_
 #define CAPACITOR_H_
 

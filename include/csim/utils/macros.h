@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef CSIM_MACROS_H_
 #define CSIM_MACROS_H_
 

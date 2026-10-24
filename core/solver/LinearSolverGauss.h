@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: LGPL-2.1-or-later
 #ifndef LINEARSOLVER_GAUSS_H_
 #define LINEARSOLVER_GAUSS_H_
 
